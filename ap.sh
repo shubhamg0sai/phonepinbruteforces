@@ -41,11 +41,11 @@ if [ "$N" -eq "1"  ]; then
  cd
  git clone https://github.com/ShuBhamg0sain/4digit
  cd 4digit
- chmod +x 4digipincracker
+ chmod +x install.sh
  clear
  echo -e "$grn+++++++++++>[$red Welcome to 4digit cracker$red$grn]<+++++++++++++"
  sleep 2 
- bash 4digipincracker
+ bash install.sh
  cd
  git clone https://github.com/ShuBhamg0sain/phonepinbruteforces
  cd phonepinbruteforces
@@ -70,11 +70,11 @@ elif [ "$N" -eq "2"  ]; then
  cd
  git clone https://github.com/ShuBhamg0sain/6digit
  cd 6digit
- chmod +x 6digipincracker
+ chmod +x install.sh
  clear
  echo -e "$grn+++++++++++>[$red Welcome to 6digit cracker$red$grn]<+++++++++++++"
  sleep 2 
- bash 6digipincracker
+ bash install.sh
  cd
  git clone https://github.com/ShuBhamg0sain/phonepinbruteforces
  cd phonepinbruteforces
@@ -99,11 +99,11 @@ elif [ "$N" -eq "3"  ]; then
  cd
  git clone https://github.com/ShuBhamg0sain/8digit
  cd 8digit
- chmod +x 8digipincracker
+ chmod +x install.sh
  clear
  echo -e "$grn+++++++++++>[$red Welcome to 8digit cracker $red$grn]<+++++++++++++"
  sleep 2 
- bash 8digipincracker
+ bash install.sh
  cd
  git clone https://github.com/ShuBhamg0sain/phonepinbruteforces
  cd phonepinbruteforces
