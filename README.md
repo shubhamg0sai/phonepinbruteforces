@@ -13,7 +13,10 @@ It uses a USB OTG cable to connect the locked phone to other device. It emulates
 The USB HID Gadget driver provides emulation of USB Human Interface Devices (HID). This enables an Android Nethunter device to emulate keyboard input to the locked phone. It's just like plugging a keyboard into the locked phone and pressing keys.
 
 # Screenshot
-![ ](https://raw.githubusercontent.com/ShuBhamg0sain/bruteForces/main/IMG_20210110_190204.jpg)
+![ ](https://raw.githubusercontent.com/ShuBhamg0sain/phonepinbruteforces/main/SG/Screenshot_20210110_141947.jpg)
+![ ](https://raw.githubusercontent.com/ShuBhamg0sain/phonepinbruteforces/main/SG/IMG_20210110_173337.jpg)
+![ ](https://raw.githubusercontent.com/ShuBhamg0sain/phonepinbruteforces/main/SG/IMG_20210110_190204.jpg)
+![ ](
 
 # Find me on 
 👉[![Instagram](https://img.shields.io/badge/INSTAGRAM-FOLLOW-red?style=for-the-badge&logo=instagram)](https://www.instagram.com/shubham_g0sain/)👈
