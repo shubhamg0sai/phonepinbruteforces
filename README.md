@@ -1,6 +1,6 @@
 # phonepinbruteforces
-# this is the version 1,
-   ![version 2 is coming soon]()
+# ![this is the version 1](https://github.com/ShuBhamg0sain/phonepinbruteforces)
+# ![version 2 is coming soon]()
 
 # 4digit pin cracker , 6digit pin cracker , 8digit pin cracker ,
 
