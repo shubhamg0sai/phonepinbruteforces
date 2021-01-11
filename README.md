@@ -4,6 +4,7 @@
 
 # 4digit pin cracker , 6digit pin cracker , 8digit pin cracker ,
 
+👇Thanks for ![@urbanadventurer](https://github.com/urbanadventurer) for this information 👇
 ## 📱 How it works
 
 It uses a USB OTG cable to connect the locked phone to other device. It emulates a keyboard, automatically tries PINs, and waits after trying too many wrong guesses.
