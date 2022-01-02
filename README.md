@@ -1,7 +1,4 @@
 # phonepinbruteforces
-# ![this is the version 1](https://github.com/ShuBhamg0sain/phonepinbruteforces)
-# ![version 2 is coming soon]()
-
 # 4digit pin cracker , 6digit pin cracker , 8digit pin cracker ,
 
 👇Thanks for ![@urbanadventurer](https://github.com/urbanadventurer) for this information 👇
@@ -16,15 +13,12 @@ It uses a USB OTG cable to connect the locked phone to other device. It emulates
 The USB HID Gadget driver provides emulation of USB Human Interface Devices (HID). This enables an Android Nethunter device to emulate keyboard input to the locked phone. It's just like plugging a keyboard into the locked phone and pressing keys.
 
 # Screenshot
-![ ](https://raw.githubusercontent.com/ShuBhamg0sain/phonepinbruteforces/main/SG/Screenshot_20210110_141947.jpg)
-![ ](https://raw.githubusercontent.com/ShuBhamg0sain/phonepinbruteforces/main/SG/IMG_20210110_173337.jpg)
-![ ](https://raw.githubusercontent.com/ShuBhamg0sain/phonepinbruteforces/main/SG/IMG_20210110_190204.jpg)
-![ ](
-
-# Find me on 
-
+![ ](https://raw.githubusercontent.com/shubhamg0sai/phonepinbruteforces/main/SG/Screenshot_20210110_141947.jpg)
+![ ](https://raw.githubusercontent.com/shubhamg0sai/phonepinbruteforces/main/SG/IMG_20210110_173337.jpg)
+![ ](https://raw.githubusercontent.com/shubhamg0sai/phonepinbruteforces/main/SG/IMG_20210110_190204.jpg)
 Instagram account
-👉[![Instagram  ](https://img.shields.io/badge/INSTAGRAM-FOLLOW-red?style=for-the-badge&logo=instagram)](https://www.instagram.com/shubhamg0sain)👈
+👉[![Instagram  ](https://img.shields.io/badge/INSTAGRAM-FOLLOW-red?style=for-the-badge&logo=instagram)](https://www.instagram.com/shubhamg0sai)👈
+
 
 ## Installation
 
@@ -36,7 +30,7 @@ pkg install git
 
 pkg install python2
 
-git clone https://github.com/ShuBhamg0sain/phonepinbruteforces
+git clone https://github.com/shubhamg0sai/phonepinbruteforces
 
 cd phonepinbruteforces
 
